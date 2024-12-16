@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Juan Carlos Talavera Gijón</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+        <link rel="icon" href="img/tala.jpeg" type="img/jpeg">
+    </head>
+    <body>
+
+        <header>
+            <h1>Juan Carlos Talavera Gijón </h1>
+        </header>
+        <main>
+            <h2>Estudiante de I.N.S. Joaquim Mir. - Formulario<br>CFGS 1º DAW</span></strong></h2>
+            <nav id="barnav">
+                <ul>
+                    <li> <a class="barnav" href="index.html">Inicio</a></li>
+                    <li> <a class="barnav" href="horario.html">Horario</a></li>
+                    <li> <a class="barnav" href="galeria.html">Galeria</a></li>
+                    <li> <a class="barnav" href="formulario.html">Formulario</a></li>
+                    
+                </ul>
+            </nav>
+            
+          
+       
+            <form action="https://www.caltala.com/" method="get" class="formula">
+                <div class="formula">
+                    <label for="nombre">Nombre: </label>
+                    <input id ="inp" type="text" name="name" id="nombre" placeholder="Escribe tu nombre" required>(*)
+                </div>
+                <div class="formula">
+                    <label for="apellido1">Primer Apellido: </label>
+                    <input id ="inp" type="text" name="apellido1" id="apellido1" placeholder="Escribe primer apellido" required>(*)
+                </div>
+                <div class="formula">
+                    <label for="apellido">Segundo Apellido: </label>
+                    <input id ="inp" type="text" name="apellido2" id="apellido2" placeholder="Escribe segundo apellido" required>(*)
+                </div class="formula">
+                <div class="formula">
+                    <label for="edad">Edad: </label>
+                    <input id ="inp" type="number" name="edad" id="edad" min="0" max="125" placeholder="Escribe tu edad" required>(*)
+                </div>
+                <div class="formula">
+                    <label for="dni">DNI: </label>
+                    <input id ="inp" type="number" name="dni" id="dni" pattern="\d{8}[A-Za-z]" placeholder="Escribe tu DNI" required>(*)
+                </div>
+                <div class="formula">
+                    <label for="color_favorito">Tu color favorito: </label>
+                    <input id ="inp"  type="color" name="color_favorito" id="color_favorito" placeholder="Escribe tu colo favorito" required>(*)   
+                </div>
+                <div class="formula">
+                    <label for="e-mail">e-mail: </label>
+                    <input id ="inp" type="text" name="e-mail" id="dni" placeholder="Escribe tu e-mail" required>(*)
+                </div>
+                <div class="formula">
+                    <label for="estudios">Formación academica: </label>
+                    <select id="estudios" name="estudios" required>
+                        <option value="otros">Otros</option>
+                        <option value="gm">GM</option>
+                        <option value="gs">GS</option>
+                        <option value="batxillerato">Bachillerato</option>
+                        <option value="grado_universitario">Grado universitario</option>
+                        <option value="master">Master especialización</option>
+                    </select> (*)
+                </div>
+                <div class="formula" required>
+                    <label for="Sexo">Género: </label>
+                    <input type="radio" id="hombre" name="genero" value="hombre">
+                    <label for="hombre">Masculino</label>
+                    <input type="radio" id="femenino" name="genero" value="mujer">
+                    <label for="mujer">Femenino</label>
+                    <input type="radio" id="other" name="genero" value="otros">
+                    <label for="otros">Otros</label> (*)
+                </div>
+                <div class="formula">
+                    <label for="comentarios">Comentarios: </label><br>
+                    <textarea id="comentarios" name="comentarios"  rows="4" cols="50" placeholder="Escribe tus comentarios">Comentarios: </textarea><br>
+                </div>
+                <div class="formula">
+                    <label for="terminos">Acepto los términos y condiciones : </label>
+                    <input type="checkbox" id="aceptar" name="aceptar" required>(*) <br>
+                    
+ 
+                </div>
+                <div class="formula">
+                    <label for="foto">Subir una foto:</label><br>
+                    <input type="file" id="foto" name="foto" accept="image/*" required><br>
+                    <button  class="botone1" type="submit">Subir</button>
+                </div>
+                
+                
+                <p>(*) Campos obligatorios. </p>
+                <div class="formula">
+                    <button class="botone2" type="submit">Enviar</button>
+                </div>
+
+            </form>
+                
+               
+            </section>
+            <aside>
+                <h3>Paginas de interes</h3>
+                <div class="div_enlaces">
+                    <a href="https://www.startechup.com/es/blog/10-web-development-trends-in-2024/" target="_blank">Desrrolo Web</a>
+                    <a href="https://www.xataka.com/tag/programacion" target="_blank">Programación</a>
+                    <a href="https://www.inesem.es/revistadigital/informatica-y-tics/los-gestores-de-bases-de-datos-mas-usados/" target="_blank">Base de datos</a>
+                    
+                </div>
+                <div class="div_enlaces">
+                    <a href="https://www.motociclismo.es/" target="_blank">Motociclismo</a>
+                    <a href="https://www.tripadvisor.es/" target="_blank">Donde comer</a>
+                    <a href="https://fedas.es/" target="_blank">Submarinismo</a>
+                    <a href="https://nauticalchannel.es/noticia/navegacion-de-altura" target="_blank">Navegación</a>
+                    
+                </div>
+              
+            </aside>
+            
+           
+        
+        </main>
+        
+        <footer class="fot">
+            Mi presentación como estudiante en INS Joaquim Mir 2024/25 &copy; <a href="#top">Ir arriba pagina</a>
+            <br>
+            <br>
+            <div class="fot">
+                <a href="https://www.facebook.com" target="_blank" title="Facebook">
+                    <img src="img/f.jpeg" alt="Logo Facebook" title="Facebook" width="30" height="50">
+                </a>
+                <a href="https://www.instagram.com" target="_blank" title="Instagram">
+                    <img src="img/insta.jpeg" alt="Logo Instagram" title="Instagram" width="50" height="50">
+                </a>
+                <a href="https://x.com/" target="_blank" title="Instagram">
+                    <img src="img/x.jpeg" alt="Logo Twiter" title="Twiter" width="30" height="50">
+                </a>
+                <a href="https://www.youtube.com" target="_blank" title="Visita YouTube">
+                    <img src="img/youtube.jpeg" alt="Logo de YouTube" title="Youtube" width="50" height="50">
+                </a>
+                <a href="jc.talaveri@hotmail.es">
+                    <img src="img/sobre.jpeg" alt="Logo e-mail" title="Sobre e-mail" width="50" height="50">
+                </a>
+               
+            </div>
+        </footer>
+        
+    </body>
+</html>
